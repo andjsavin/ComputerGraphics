@@ -1,4 +1,4 @@
-#include <windows.h>
+/*#include <windows.h>
 #include <GL/gl.h>
 #include <glut.h>
 #include <stdlib.h>
@@ -14,7 +14,7 @@ int c = 0;
 
 void changeSize(int w, int h) {
 	if (h == 0)
-	h = 1;
+		h = 1;
 	width = w;
 	height = h;
 	GLdouble ratio = 1.0f*w / h;
@@ -25,8 +25,8 @@ void changeSize(int w, int h) {
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
 	gluLookAt(0, 0, 22,
-	-2, -1, 0,
-	0, 1, 0);
+		-2, -1, 0,
+		0, 1, 0);
 }
 
 void renderScene() {
@@ -51,7 +51,7 @@ void renderScene() {
 	glRotatef(wAngle, 0.0, 0.0, -1.0);
 	glTranslatef(2.0f, 1.0f, 0.0f);
 	glPushMatrix();
-	glTranslatef(-5.0f + xStep*3, -2.0f + yStep*1.5, 0.0f);
+	glTranslatef(-5.0f + xStep * 3, -2.0f + yStep * 1.5, 0.0f);
 	glColor3f(1.0, 0.0, 0.0);
 	glTranslatef(2.0f / 3.0f, 2.0 / 3.0f, 0.0f);
 	glRotatef(rotAngle, 0.0, 0.0, -1.0);
@@ -64,7 +64,7 @@ void renderScene() {
 	glEnd();
 	glPopMatrix();
 	glPushMatrix();
-	glTranslatef(-4.0f + xStep*2.25, -3.0f + yStep*2.25, 0.0f);
+	glTranslatef(-4.0f + xStep * 2.25, -3.0f + yStep * 2.25, 0.0f);
 	glColor3f(0.0, 1.0, 0.0);
 	glTranslatef(2.0f / 3.0f, 2.0 / 3.0f, 0.0f);
 	glRotatef(rotAngle, 0.0, 0.0, -1.0);
@@ -76,7 +76,7 @@ void renderScene() {
 	glEnd();
 	glPopMatrix();
 	glPushMatrix();
-	glTranslatef(-3.0f + xStep*1.5, -4.0f + yStep*3, 0.0f);
+	glTranslatef(-3.0f + xStep * 1.5, -4.0f + yStep * 3, 0.0f);
 	glColor3f(0.0, 0.0, 1.0);
 	glTranslatef(2.0f / 3.0f, 2.0 / 3.0f, 0.0f);
 	glRotatef(rotAngle, 0.0, 0.0, -1.0);
@@ -88,7 +88,7 @@ void renderScene() {
 	glEnd();
 	glPopMatrix();
 	glPushMatrix();
-	glTranslatef(-4.0f + xStep*2, -2.0f + yStep*1.5, 0.0f);
+	glTranslatef(-4.0f + xStep * 2, -2.0f + yStep * 1.5, 0.0f);
 	glColor3f(0.0, 1.0, 0.0);
 	glTranslatef(2.0f / 3.0f, 2.0 / 3.0f, 0.0f);
 	glRotatef(rotAngle, 0.0, 0.0, -1.0);
@@ -100,7 +100,7 @@ void renderScene() {
 	glEnd();
 	glPopMatrix();
 	glPushMatrix();
-	glTranslatef(-3.0f + xStep*1.5, -3.0f + yStep*2, 0.0f);
+	glTranslatef(-3.0f + xStep * 1.5, -3.0f + yStep * 2, 0.0f);
 	glColor3f(0.0, 0.0, 1.0);
 	glTranslatef(2.0f / 3.0f, 2.0 / 3.0f, 0.0f);
 	glRotatef(rotAngle, 0.0, 0.0, -1.0);
@@ -112,7 +112,7 @@ void renderScene() {
 	glEnd();
 	glPopMatrix();
 	glPushMatrix();
-	glTranslatef(-3.0f + xStep*1.5, -2.0f + yStep*1.5, 0.0f);
+	glTranslatef(-3.0f + xStep * 1.5, -2.0f + yStep * 1.5, 0.0f);
 	glColor3f(0.0, 0.0, 1.0);
 	glTranslatef(2.0f / 3.0f, 2.0 / 3.0f, 0.0f);
 	glRotatef(rotAngle, 0.0, 0.0, -1.0);
@@ -357,4 +357,4 @@ int main(int argc, char **argv) {
 	glutReshapeFunc(changeSize);
 	glutMainLoop();
 	return(0);
-}
+}*/
