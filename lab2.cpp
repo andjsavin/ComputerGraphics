@@ -1,4 +1,4 @@
-#include "stdafx.h"
+/*#include "stdafx.h"
 #include "windows.h""
 #include <glaux.h>
 #include <glut.h>
@@ -391,4 +391,4 @@ int main(int argc, char** argv)
 	glutTimerFunc(time_step, process, 0);
 	glutMainLoop();
 	return 0;
-}
+}*/

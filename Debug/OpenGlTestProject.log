@@ -1,5 +1,6 @@
-﻿  lab2.cpp
-d:\users\andnewpc\source\repos\opengltestproject\opengltestproject\lab2.cpp(2): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-  lab1.cpp
-  Создание кода...
+﻿  cube.cpp
+d:\users\andnewpc\source\repos\opengltestproject\opengltestproject\small_cube.h(4): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+d:\users\andnewpc\source\repos\opengltestproject\opengltestproject\cube.cpp(45): warning C4838: преобразование из "double" в "float" требует сужающего преобразования
+d:\users\andnewpc\source\repos\opengltestproject\opengltestproject\cube.cpp(46): warning C4838: преобразование из "double" в "float" требует сужающего преобразования
+d:\users\andnewpc\source\repos\opengltestproject\opengltestproject\cube.cpp(47): warning C4838: преобразование из "double" в "float" требует сужающего преобразования
   OpenGlTestProject.vcxproj -> D:\Users\AndnewPC\source\repos\OpenGlTestProject\Debug\OpenGlTestProject.exe
